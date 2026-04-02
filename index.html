@@ -3,20 +3,393 @@
   <head>
 
 <script src="https://aframe.io/releases/1.1.0/aframe.min.js"></script>
+<script src="https://rawgit.com/donmccurdy/aframe-extras/v2.1.1/dist/aframe-extras.loaders.min.js"></script> 
 <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-extras@2.1.1/dist/aframe-extras.min.js"></script>
-    
-  </head>
+<!--hello future me good luck you got this js listen to ur music :}-->
+</head>
     <body>
     <a-scene>
-      <a-sky color="lightblue"></a-sky>
-      
-       <!-- Put this inside the <a-scene> -->
-      <a-entity 
-      ply-model="src:dog.ply"
-      position="0 1 -2"
-      rotation="-90 0 90"
+      <a-sky src="skybetter.png"></a-sky>
+      <a-entity
+      ply-model="src:the house.ply"
+      position="18 -20 26"
+      rotation=" 270 0 0"
+      scale="10 10 10"
       ></a-entity>
-                 
+      <a-plane
+      scale="10000 10000"
+      color="darkgreen"
+      rotation="270 0 0"
+  ></a-plane>
+  <!--the ground with flowers--> 
+  <a-entity
+  ply-model="src:flowerground.ply"
+  position="0 -5 0"
+  scale="2.5 2.5 2.5"
+  rotation="270 270 0"
+  ></a-entity>
+  <a-entity
+  ply-model="src:flowerground.ply"
+  position="0 -5 -10"
+  scale="2.5 2.5 2.5"
+  rotation="270 270 0"
+  ></a-entity>
+  <a-entity
+  ply-model="src:flowerground.ply"
+  position="0 -5 -20"
+  scale="2.5 2.5 2.5"
+  rotation="270 270 0"
+  ></a-entity>
+  <a-entity
+  ply-model="src:flowerground.ply"
+  position="0 -5 -30"
+  scale="2.5 2.5 2.5"
+  rotation="270 270 0"
+  ></a-entity>
+  <a-entity
+  ply-model="src:flowerground.ply"
+  position="0 -5 -40"
+  scale="2.5 2.5 2.5"
+  rotation="270 270 0"
+  ></a-entity>
+  <a-entity
+  ply-model="src:flowerground.ply"
+  position="0 -5 10"
+  scale="2.5 2.5 2.5"
+  rotation="270 270 0"
+  ></a-entity>
+  <a-entity
+  ply-model="src:flowerground.ply"
+  position="0 -5 20"
+  scale="2.5 2.5 2.5"
+  rotation="270 270 0"
+  ></a-entity>
+  <a-entity
+  ply-model="src:flowerground.ply"
+  position="0 -5 30"
+  scale="2.5 2.5 2.5"
+  rotation="270 270 0"
+  ></a-entity>
+  <!--second round-->
+  <a-entity
+  ply-model="src:flowerground.ply"
+  position="0 -5 0"
+  scale="2.5 2.5 2.5"
+  rotation="270 270 0"
+  ></a-entity>
+  <a-entity
+  ply-model="src:flowerground.ply"
+  position="-10 -5 -0"
+  scale="2.5 2.5 2.5"
+  rotation="270 270 0"
+  ></a-entity>
+  <a-entity
+  ply-model="src:flowerground.ply"
+  position="-20 -5 0"
+  scale="2.5 2.5 2.5"
+  rotation="270 270 0"
+  ></a-entity>
+  <a-entity
+  ply-model="src:flowerground.ply"
+  position="-30 -5 -0"
+  scale="2.5 2.5 2.5"
+  rotation="270 270 0"
+  ></a-entity>
+  <a-entity
+  ply-model="src:flowerground.ply"
+  position="-40 -5 -0"
+  scale="2.5 2.5 2.5"
+  rotation="270 270 0"
+  ></a-entity>
+  <a-entity
+  ply-model="src:flowerground.ply"
+  position="10 -5 0"
+  scale="2.5 2.5 2.5"
+  rotation="270 270 0"
+  ></a-entity>
+  <a-entity
+  ply-model="src:flowerground.ply"
+  position="20 -5 0"
+  scale="2.5 2.5 2.5"
+  rotation="270 270 0"
+  ></a-entity>
+  <a-entity
+  ply-model="src:flowerground.ply"
+  position="30 -5 0"
+  scale="2.5 2.5 2.5"
+  rotation="270 270 0"
+  ></a-entity>
+  <!--third round-->
+  <a-entity
+  ply-model="src:flowerground.ply"
+  position="0 -5 0"
+  scale="2.5 2.5 2.5"
+  rotation="270 270 0"
+  ></a-entity>
+  <a-entity
+  ply-model="src:flowerground.ply"
+  position="-10 -5 -10"
+  scale="2.5 2.5 2.5"
+  rotation="270 270 0"
+  ></a-entity>
+  <a-entity
+  ply-model="src:flowerground.ply"
+  position="-20 -5 -20"
+  scale="2.5 2.5 2.5"
+  rotation="270 270 0"
+  ></a-entity>
+  <a-entity
+  ply-model="src:flowerground.ply"
+  position="-30 -5 -30"
+  scale="2.5 2.5 2.5"
+  rotation="270 270 0"
+  ></a-entity>
+  <a-entity
+  ply-model="src:flowerground.ply"
+  position="-40 -5 -40"
+  scale="2.5 2.5 2.5"
+  rotation="270 270 0"
+  ></a-entity>
+  <a-entity
+  ply-model="src:flowerground.ply"
+  position="10 -5 10"
+  scale="2.5 2.5 2.5"
+  rotation="270 270 0"
+  ></a-entity>
+  <a-entity
+  ply-model="src:flowerground.ply"
+  position="20 -5 20"
+  scale="2.5 2.5 2.5"
+  rotation="270 270 0"
+  ></a-entity>
+  <a-entity
+  ply-model="src:flowerground.ply"
+  position="30 -5 30"
+  scale="2.5 2.5 2.5"
+  rotation="270 270 0"
+  ></a-entity>
+<!--final round-->
+<a-entity
+ply-model="src:flowerground.ply"
+position="0 -5 0"
+scale="2.5 2.5 2.5"
+rotation="270 270 0"
+></a-entity>
+<a-entity
+ply-model="src:flowerground.ply"
+position="-10 -5 10"
+scale="2.5 2.5 2.5"
+rotation="270 270 0"
+></a-entity>
+<a-entity
+ply-model="src:flowerground.ply"
+position="-20 -5 20"
+scale="2.5 2.5 2.5"
+rotation="270 270 0"
+></a-entity>
+<a-entity
+ply-model="src:flowerground.ply"
+position="-30 -5 30"
+scale="2.5 2.5 2.5"
+rotation="270 270 0"
+></a-entity>
+<a-entity
+ply-model="src:flowerground.ply"
+position="-40 -5 40"
+scale="2.5 2.5 2.5"
+rotation="270 270 0"
+></a-entity>
+<a-entity
+ply-model="src:flowerground.ply"
+position="10 -5 -10"
+scale="2.5 2.5 2.5"
+rotation="270 270 0"
+></a-entity>
+<a-entity
+ply-model="src:flowerground.ply"
+position="20 -5 -20"
+scale="2.5 2.5 2.5"
+rotation="270 270 0"
+></a-entity>
+<a-entity
+ply-model="src:flowerground.ply"
+position="30 -5 -30"
+scale="2.5 2.5 2.5"
+rotation="270 270 0"
+></a-entity>
+<!--well well well look who wwe have here-->
+<a-entity
+ply-model="src:well well well well.ply"
+position="0 -5 0"
+scale="2.5 2.5 2.5"
+rotation="270 270 0"
+.emit(wellhover, {mouseenter}, false);
+></a-entity>
+<a-entity id="mouseCursor" cursor="rayOrigin: mouse"></a-entity>
+<a-entity 
+ply-model="src:coin.ply"
+scale="1 1 1"
+color="gold"
+position="-5.25 3.38 7.26"
+.addEventListener(wellhover, scale="100 100 100")
+></a-entity>
+animation_mouseclick="property:position; from: -5.25 3.38 7.26; to:5 0.5 5 ; dur: 1000; startEvents: mouseclick"
+
+
+
+
+  <!--skybox code if u wanna re put it in yk-->
+  ply-model="src:skybox but better.ply"
+  position="-50 -25 40"w
+  scale="10 10 10"d
+  rotation="270 0 0"
+  <!--camera stuff fix later if u want-->
+  animation="property:position; from: -36 3 6; to: 5.25 3.38 7.26; dur: 12500"
+  <a-entity
+  camera wasd-controls look-controls position="-36 3 6" rotation="0 90 0" 
+  ></a-entity>
+  <a-entity
+    ply-model="src:sun.ply"
+    position="0 100 0"
+    scale="10 10 10"
+  ></a-entity>
+<a-light
+ id="amb" type="ambient" intensity="1" color="lightyellow"
+  position=" 0 100 0"
+></a-light>
+ <!--cloud aniamtions-->
+  <a-entity
+  ply-model="src:cloud for animation.ply"
+  position="10 20 10"
+  scale="5 5 5"
+  rotation="270 0 0"
+  animation="
+  property: position;
+  from:-70 20 12;
+  to:500 21 120;
+  dur:25000;
+  "
+  ></a-entity>
+  <!--need to change this for different cloud thanks-->
+  <a-entity
+  ply-model="src:cloud for animation.ply"
+  position="10 20 10"
+  scale="5 5 5"
+  rotation="270 0 0"
+  animation-="
+  property: position;
+  from:-70 20 12;
+  to:50 21 12;
+  dur:25000;
+  loop:true;
+  dir:alternate;
+
+  "
+  ></a-entity>
+<!--space for apple trees gl me ily-->
+<a-entity
+ply-model="src:tree short apple.ply"
+position="-50 -10 10"
+scale="5 5 5"
+rotation="270 0 0"
+></a-entity>
+<a-entity
+ply-model="src:tree short apple.ply"
+position="-45 -10 40"
+scale="5 5 5"
+rotation="270 0 0"
+></a-entity>
+<a-entity
+ply-model="src:tree short apple.ply"
+position="-55 -10 -23"
+scale="5 5 5"
+rotation="270 0 0"
+></a-entity>
+<a-entity
+ply-model="src:tree short apple.ply"
+position="-40 -10 -15"
+scale="5 5 5"
+rotation="270 0 0"
+></a-entity>
+<a-entity
+ply-model="src:tree short apple.ply"
+position="-40 -10 21"
+scale="5 5 5"
+rotation="270 0 0"
+></a-entity>
+<a-entity
+ply-model="src:tree short apple.ply"
+position="-55 -10 10"
+scale="5 5 5"
+rotation="270 0 0"
+></a-entity>
+<!--apple trees stopped and tall ones start :]-->
+<a-entity
+ply-model="src:tree1.ply"
+position="-54 -22 9"
+scale="10 10 10"
+rotation="270 0 0"
+></a-entity>
+<a-entity
+ply-model="src:tree1.ply"
+position="-60 -22.5 40"
+scale="10 10 10"
+rotation="270 0 0"
+></a-entity>
+<a-entity
+ply-model="src:tree1.ply"
+position="-45 -22.5 -21"
+scale="10 10 10"
+rotation="270 0 0"
+></a-entity>
+<a-entity
+ply-model="src:tree1.ply"
+position="-60 -22.5 -3"
+scale="10 10 10"
+rotation="270 0 0"
+></a-entity>
+<a-entity
+ply-model="src:tree1.ply"
+position="-60 -22.5 -28"
+scale="10 10 10"
+rotation="270 0 0"
+></a-entity>
+<a-entity
+ply-model="src:tree1.ply"
+position="-62 -22.5 55"
+scale="10 10 10"
+rotation="270 0 0"
+></a-entity>
+<a-entity
+ply-model="src:tree1.ply"
+position="-40 -22.5 -12"
+scale="10 10 10"
+rotation="270 0 0"
+></a-entity>
+ <!--normals stop and tall ones start :]-->
+ <a-entity
+ ply-model="src:treetallyesyes.ply"
+ position="-47 -22.5 14"
+ scale="10 10 10"
+ rotation="270 0 0"
+ ></a-entity>
+ <a-entity
+ ply-model="src:treetallyesyes.ply"
+ position="-50 -22.5 40"
+ scale="10 10 10"
+ rotation="270 0 0"
+ ></a-entity>
+ <a-entity
+ ply-model="src:treetallyesyes.ply"
+ position="-58 -22.5 -22"
+ scale="10 10 10"
+ rotation="270 0 0"
+ ></a-entity>
+
+
+
+
+
     </a-scene>
   </body>
 </html>
